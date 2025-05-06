@@ -64,12 +64,12 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/WebGLBuildV0.4.2.loader.js";
+    var loaderUrl = buildUrl + "/E.loader.js";
     var config = 
     {
-      dataUrl: buildUrl + "/WebGLBuildV0.4.2.data.unityweb",
-      frameworkUrl: buildUrl + "/WebGLBuildV0.4.2.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGLBuildV0.4.2.wasm.unityweb",
+      dataUrl: buildUrl + "/E.data",
+      frameworkUrl: buildUrl + "/E.framework.js",
+        codeUrl: buildUrl + "/E.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "FabianAlexanderSchröter",
     productName: "Chemical-Chaos",
@@ -120,7 +120,7 @@
         loaderContainer.style.transform = "";
       }
 	  
-      canvas.style.background = "url('" + buildUrl + "/WebGLBuildV0.4.2.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/E.jpg') center / cover";
 
     function toggleTheme()
     {
